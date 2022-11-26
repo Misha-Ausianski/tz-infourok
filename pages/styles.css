@@ -1,48 +1,48 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/fonts.css);
-@import url(../blocks/body/body.css);
-@import url(../blocks/page/page.css);
-@import url(../blocks/container/container.css);
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./blocks/body/body.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/container/container.css);
 
 /* header */
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__info/header__info.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__info/header__info.css);
 
 /* meta */
-@import url(../blocks/meta/meta.css);
-@import url(../blocks/meta/__title/meta__title.css);
-@import url(../blocks/meta/__subtitle/meta__subtitle.css);
-@import url(../blocks/meta/__span-accent/meta__span-accent.css);
+@import url(./blocks/meta/meta.css);
+@import url(./blocks/meta/__title/meta__title.css);
+@import url(./blocks/meta/__subtitle/meta__subtitle.css);
+@import url(./blocks/meta/__span-accent/meta__span-accent.css);
 
 /* login-button */
-@import url(../blocks/login-button/login-button.css);
+@import url(./blocks/login-button/login-button.css);
 
-@import url(../blocks/content/content.css);
+@import url(./blocks/content/content.css);
 
 /* content-title*/
-@import url(../blocks/content-title/content-title.css);
-@import url(../blocks/content-title/__span/content-title__span.css);
+@import url(./blocks/content-title/content-title.css);
+@import url(./blocks/content-title/__span/content-title__span.css);
 
 /* main-info */
-@import url(../blocks/main-info/main-info.css);
+@import url(./blocks/main-info/main-info.css);
 
 /* involvement */
-@import url(../blocks/involvement/involvement.css);
-@import url(../blocks/involvement/__title/involvement__title.css);
-@import url(../blocks/involvement/__price/involvement__price.css);
-@import url(../blocks/involvement/__price-currency/involvement__price-currency.css);
-@import url(../blocks/involvement/__submit-button/involvement__submit-button.css);
+@import url(./blocks/involvement/involvement.css);
+@import url(./blocks/involvement/__title/involvement__title.css);
+@import url(./blocks/involvement/__price/involvement__price.css);
+@import url(./blocks/involvement/__price-currency/involvement__price-currency.css);
+@import url(./blocks/involvement/__submit-button/involvement__submit-button.css);
 
 /* description */
-@import url(../blocks/description/description.css);
-@import url(../blocks/description/__card/description__card.css);
-@import url(../blocks/description/__title/description__title.css);
-@import url(../blocks/description/__info/description__info.css);
-@import url(../blocks/description/__text/description__text.css);
+@import url(./blocks/description/description.css);
+@import url(./blocks/description/__card/description__card.css);
+@import url(./blocks/description/__title/description__title.css);
+@import url(./blocks/description/__info/description__info.css);
+@import url(./blocks/description/__text/description__text.css);
 
 /* image */
-@import url(../blocks/students-image/students-image.css);
-@import url(../blocks/bottom-image/bottom-image.css);
-@import url(../blocks/graphic-image/graphic-image.css);
-@import url(../blocks/backgroundgraphic-image/backgroundgraphic-image.css);
+@import url(./blocks/students-image/students-image.css);
+@import url(./blocks/bottom-image/bottom-image.css);
+@import url(./blocks/graphic-image/graphic-image.css);
+@import url(./blocks/backgroundgraphic-image/backgroundgraphic-image.css);
