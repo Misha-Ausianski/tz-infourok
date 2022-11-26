@@ -1,0 +1,9 @@
+.bottom-image {
+    position: absolute;
+    left: 0;
+    /* top: 647px; */
+    bottom: 0;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+}

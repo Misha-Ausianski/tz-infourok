@@ -1,0 +1,8 @@
+.backgroundgraphic-image {
+    position: absolute;
+    left: 1040px;
+    top: 122px;
+    z-index: 0;
+    display: inline-block;
+    max-width: 100%;
+}

@@ -1,0 +1,11 @@
+.main-info {
+    margin-top: 50px;
+    display: flex;
+}
+
+@media screen and (max-width: 568px) {
+    .main-info {
+        flex-direction: column;
+        margin-top: 23px;
+    }
+}
