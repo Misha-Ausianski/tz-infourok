@@ -48,6 +48,9 @@ input {
 
 .body {
   margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
 }
 
 .page {
@@ -55,8 +58,6 @@ input {
   min-width: 360px;
   min-height: 800px;
   font-weight: 400;
-  font-size: 14px;
-  color: #fff;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
