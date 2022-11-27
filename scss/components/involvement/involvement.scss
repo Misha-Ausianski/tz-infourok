@@ -1,0 +1,14 @@
+@media screen and (max-width: 568px) {
+    .involvement {
+      margin: 0 auto;
+      display: grid;
+      grid-auto-columns: 1fr;
+      grid-auto-rows: 1fr;
+      /* grid-template-columns: 1fr 1fr; */
+      /* grid-template-rows: 1fr 1fr; */
+      grid-template-columns: repeat(2, minmax(min-content, max-content));
+      grid-template-rows: repeat(2, minmax(min-content, max-content));
+      gap: 0px 29px;
+      grid-template-areas: "title price" "button button";
+    }
+  }
