@@ -7,15 +7,6 @@
     position: relative;
     z-index: 1;
 }
-/*
-@media screen and (max-width: 984px) {
-    .content-title {
-        margin-top: 40px;
-        font-size: 36px;
-        line-height: 43px;
-    }
-} */
-
 
 @media screen and (max-width: 992px) {
     .content-title {

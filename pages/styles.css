@@ -40,9 +40,3 @@
 @import url(../blocks/description/__title/description__title.css);
 @import url(../blocks/description/__info/description__info.css);
 @import url(../blocks/description/__text/description__text.css);
-
-/* image */
-@import url(../blocks/students-image/students-image.css);
-@import url(../blocks/bottom-image/bottom-image.css);
-@import url(../blocks/graphic-image/graphic-image.css);
-@import url(../blocks/backgroundgraphic-image/backgroundgraphic-image.css);
