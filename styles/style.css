@@ -45,24 +45,6 @@ input {
   border-radius: 0;
 }
 
-@font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans Regular"), local("Open-Sans-Regular"), url("./OpenSans-Regular.woff2") format("woff2"), url("./OpenSans-Regular.woff") format("woff"), url("./OpenSans-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans Semi Bold"), local("Open-Sans-Semi-Bold"), url("./OpenSans-SemiBold.woff") format("woff2"), url("./OpenSans-SemiBold.woff") format("woff"), url("./OpenSans-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Open Sans";
-  src: local("Open Sans Bold"), local("Open-Sans-Bold"), url("./OpenSans-Bold.woff2") format("woff2"), url("./OpenSans-Bold.woff") format("woff"), url("./OpenSans-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
 .body {
   margin: 0 auto;
 }
@@ -71,18 +53,18 @@ input {
   max-width: 1920px;
   min-width: 360px;
   min-height: 800px;
+  font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   box-sizing: border-box;
   position: relative;
-  background: linear-gradient(90deg, #8159C6, #6C7CFF);
   overflow: hidden;
-  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #fff;
   line-height: 120%;
   font-weight: 400;
+  background: linear-gradient(90deg, #8159C6, #6C7CFF);
 }
 
 .container {
@@ -402,6 +384,9 @@ input {
 @media screen and (max-width: 568px) {
   .description__card {
     padding-left: 5px;
+  }
+  .description__card:last-of-type {
+    margin-top: 15px;
   }
 }
 .description__title {
