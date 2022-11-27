@@ -1,7 +1,24 @@
-@import '../vendor/fonts/fonts.css';
 @import '../vendor/normalize.css';
+@import '../vendor/fonts/fonts.css';
 .body {
   margin: 0 auto;
+}
+
+.page {
+  max-width: 1920px;
+  min-width: 360px;
+  height: 800px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  background: linear-gradient(90deg, #8159C6, #6C7CFF);
+  overflow: hidden;
 }
 
 .container {
@@ -28,37 +45,6 @@
     padding: 0 8px;
   }
 }
-.content-title {
-  max-width: 532px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 58px;
-  margin: 90px 0 0 0;
-  position: relative;
-  z-index: 1;
-}
-
-@media screen and (max-width: 992px) {
-  .content-title {
-    margin: 0 auto;
-    margin-top: 40px;
-    font-size: 36px;
-    line-height: 43px;
-    text-align: center;
-  }
-}
-@media screen and (max-width: 568px) {
-  .content-title {
-    font-size: 24px;
-    line-height: 29px;
-    max-width: 260px;
-    margin-top: 30px;
-  }
-}
-.content-title__span {
-  color: #F8D008;
-}
-
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -176,21 +162,35 @@
     align-self: start;
   }
 }
-.page {
-  max-width: 1920px;
-  min-width: 360px;
-  height: 800px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  box-sizing: border-box;
+.content-title {
+  max-width: 532px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 90px 0 0 0;
   position: relative;
-  background: linear-gradient(90deg, #8159C6, #6C7CFF);
-  overflow: hidden;
+  z-index: 1;
+}
+
+@media screen and (max-width: 992px) {
+  .content-title {
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 568px) {
+  .content-title {
+    font-size: 24px;
+    line-height: 29px;
+    max-width: 260px;
+    margin-top: 30px;
+  }
+}
+.content-title__span {
+  color: #F8D008;
 }
 
 .main-info {
